@@ -1,16 +1,10 @@
-﻿using Abp.Application.Services;
-using Abp.Application.Services.Dto;
-using Abp.Authorization;
-using Abp.AutoMapper;
-using Abp.Domain.Entities.Auditing;
+﻿using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
-using Abp.UI;
+using Jerry.BookStore.Tasks.Dto;
 using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using static Jerry.BookStore.Tasks.Task;
 
@@ -25,10 +19,17 @@ namespace Jerry.BookStore.Tasks
             _taskRepository = taskRepository;
         }
 
+        public async System.Threading.Tasks.Task Create(CreateTaskInput input)
+        {
+            var task = ObjectMapper.Map<Task>(input);
+             await _taskRepository.InsertAsync(task);
+        }
+
         public async Task<ListResultDto<TaskListDto>> GetAll(GetAllTaskInput input)
         {
             var tasks = await _taskRepository
                 .GetAll()
+                .Include(t => t.AssignedPerson)
                 .WhereIf(input.State.HasValue, t => t.State == input.State.Value)
                 .OrderByDescending(t => t.CreationTime)
                 .ToListAsync();
@@ -40,10 +41,7 @@ namespace Jerry.BookStore.Tasks
 
     }
 
-    public interface ITaskAppService : IApplicationService
-    {
-        Task<ListResultDto<TaskListDto>> GetAll(GetAllTaskInput input);
-    }
+
 
     public class GetAllTaskInput
     {
@@ -52,20 +50,5 @@ namespace Jerry.BookStore.Tasks
 
 
 
-    [AutoMapFrom(typeof(Task))]
-    public class TaskListDto : EntityDto, IHasCreationTime
-    {
-        public string Title { get; set; }
 
-        public string Description { get; set; }
-
-        public DateTime CreationTime { get; set; }
-
-        public TaskState State
-        {
-            get; set;
-        }
-
-
-    }
 }

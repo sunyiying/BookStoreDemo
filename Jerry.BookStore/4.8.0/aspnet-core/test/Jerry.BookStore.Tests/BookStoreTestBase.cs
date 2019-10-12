@@ -14,6 +14,7 @@ using Jerry.BookStore.EntityFrameworkCore;
 using Jerry.BookStore.EntityFrameworkCore.Seed.Host;
 using Jerry.BookStore.EntityFrameworkCore.Seed.Tenants;
 using Jerry.BookStore.MultiTenancy;
+using Jerry.BookStore.Tests.Tasks;
 
 namespace Jerry.BookStore.Tests
 {
@@ -35,6 +36,7 @@ namespace Jerry.BookStore.Tests
                 NormalizeDbContext(context);
                 new InitialHostDbBuilder(context).Create();
                 new DefaultTenantBuilder(context).Create();
+                new TestDataBuilder(context).Create();
             });
 
             // Seed initial data for default tenant

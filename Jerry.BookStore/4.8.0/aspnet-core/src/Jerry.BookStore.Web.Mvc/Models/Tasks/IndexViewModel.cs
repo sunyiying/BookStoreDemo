@@ -1,5 +1,6 @@
 ﻿using Abp.Localization;
 using Jerry.BookStore.Tasks;
+using Jerry.BookStore.Tasks.Dto;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;

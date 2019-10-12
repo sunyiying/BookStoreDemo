@@ -2507,3 +2507,700 @@ INFO  2019-10-09 18:09:54,455 [16   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2019-10-09 18:09:54,520 [19   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
 DEBUG 2019-10-09 18:09:54,521 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"AqWvXIZSxJ_h_1UNwuPz6Q","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-09T18:09:54.5210829+08:00","Properties":{}}
 DEBUG 2019-10-09 18:09:54,528 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: AqWvXIZSxJ_h_1UNwuPz6Q
+DEBUG 2019-10-12 10:06:09,431 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-12 10:06:09,578 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-12 10:06:09,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.Web.Startup.BookStoreWebMvcModule, Jerry.BookStore.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,655 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.BookStoreWebCoreModule, Jerry.BookStore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.BookStoreApplicationModule, Jerry.BookStore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.BookStoreCoreModule, Jerry.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,659 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,662 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkModule, Jerry.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,664 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,667 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:09,677 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-12 10:06:09,830 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 10:06:09,830 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 10:06:09,830 [1    ] o.Configuration.LanguageManagementConfig - Converted BookStore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 10:06:09,830 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 10:06:10,645 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Jerry.BookStore.EntityFrameworkCore.BookStoreDbContext, Jerry.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 10:06:12,980 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-12 10:06:13,088 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-12 10:06:13,184 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-12 10:06:13,213 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookStore
+DEBUG 2019-10-12 10:06:13,259 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-12 10:06:13,586 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-12 10:06:13,794 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-12 10:06:13,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-10-12 10:06:13,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-12 10:06:13,877 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Users.Dto.CreateUserDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Users.Dto.UserDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Tasks.TaskListDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Roles.Dto.PermissionDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-12 10:06:13,878 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-12 10:06:13,879 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-12 10:06:13,879 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-12 10:06:21,997 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-12 10:06:21,997 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-12 10:06:22,150 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 161.8561ms 200 
+INFO  2019-10-12 10:06:28,175 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc)
+WARN  2019-10-12 10:06:28,678 [7    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+Abp.Authorization.AbpAuthorizationException: 当前用户没有登录到系统！
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 42
+   at Abp.Authorization.AuthorizationHelper.CheckPermissions(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 107
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type) in D:\Github\aspnetboilerplate\src\Abp\Authorization\AuthorizationHelper.cs:line 56
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Authorization\AbpAuthorizationFilter.cs:line 53
+INFO  2019-10-12 10:06:28,690 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2019-10-12 10:06:28,707 [7    ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2019-10-12 10:06:28,740 [7    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-10-12 10:06:28,748 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) in 563.982ms
+INFO  2019-10-12 10:06:28,786 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-10-12 10:06:28,792 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6809.2794ms 302 
+INFO  2019-10-12 10:06:28,844 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:06:34,113 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (, /, ) - Validation state: Valid
+INFO  2019-10-12 10:06:34,131 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 13.1051ms.
+INFO  2019-10-12 10:06:34,670 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-12 10:06:35,800 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 1230.5898ms.
+INFO  2019-10-12 10:06:35,811 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 6962.767ms
+INFO  2019-10-12 10:06:35,876 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2019-10-12 10:06:35,883 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2019-10-12 10:06:35,891 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2019-10-12 10:06:35,900 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7114.742ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:06:35,905 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2019-10-12 10:06:35,946 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2019-10-12 10:06:35,948 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2019-10-12 10:06:35,954 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2019-10-12 10:06:35,958 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.2457ms 200 text/css
+INFO  2019-10-12 10:06:35,961 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.8541ms 200 text/css
+INFO  2019-10-12 10:06:35,973 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2019-10-12 10:06:35,977 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.6006ms 200 text/css
+INFO  2019-10-12 10:06:35,995 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2019-10-12 10:06:36,010 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-10-12 10:06:36,016 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-10-12 10:06:36,017 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.8682ms 200 text/css
+INFO  2019-10-12 10:06:36,039 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.1943ms 200 text/css
+INFO  2019-10-12 10:06:36,042 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2019-10-12 10:06:36,046 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2019-10-12 10:06:36,048 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2019-10-12 10:06:36,051 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2019-10-12 10:06:36,082 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 149.7703ms 200 text/css
+INFO  2019-10-12 10:06:36,098 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2019-10-12 10:06:36,101 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2019-10-12 10:06:36,109 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\css\materialize.css'
+INFO  2019-10-12 10:06:36,111 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2019-10-12 10:06:36,114 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 88.7081ms 200 text/css
+INFO  2019-10-12 10:06:36,116 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.116ms 200 text/css
+INFO  2019-10-12 10:06:36,124 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.7678ms 200 text/css
+INFO  2019-10-12 10:06:36,129 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2019-10-12 10:06:36,134 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2019-10-12 10:06:36,139 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=j_16MTiQNlUrKdjTrCjLCSGkIIjHvt8tFUyucW02Vqw  
+INFO  2019-10-12 10:06:36,149 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2019-10-12 10:06:36,159 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2019-10-12 10:06:36,166 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2019-10-12 10:06:36,168 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2019-10-12 10:06:36,175 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.7429ms 200 text/css
+INFO  2019-10-12 10:06:36,178 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.9253ms 200 text/css
+INFO  2019-10-12 10:06:36,199 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2019-10-12 10:06:36,232 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.7915ms 200 application/javascript
+INFO  2019-10-12 10:06:36,242 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2019-10-12 10:06:36,259 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2019-10-12 10:06:36,274 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2019-10-12 10:06:36,281 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-10-12 10:06:36,292 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\css\style.css'
+INFO  2019-10-12 10:06:36,300 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 156.3247ms 200 application/javascript
+INFO  2019-10-12 10:06:36,336 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 190.1875ms 200 text/css
+INFO  2019-10-12 10:06:36,347 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-10-12 10:06:36,378 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2019-10-12 10:06:36,390 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-10-12 10:06:36,398 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2019-10-12 10:06:36,408 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 116.5064ms 200 application/javascript
+INFO  2019-10-12 10:06:36,412 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.7847ms 200 application/javascript
+INFO  2019-10-12 10:06:36,417 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2019-10-12 10:06:36,428 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+INFO  2019-10-12 10:06:36,433 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2019-10-12 10:06:36,437 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2019-10-12 10:06:36,441 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.7833ms 200 application/javascript
+INFO  2019-10-12 10:06:36,461 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.1412ms 200 application/javascript
+INFO  2019-10-12 10:06:36,545 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-10-12 10:06:36,571 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-10-12 10:06:36,578 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.7724ms 200 application/javascript
+INFO  2019-10-12 10:06:36,582 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2019-10-12 10:06:36,590 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2019-10-12 10:06:36,597 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 435.6366ms 200 application/javascript
+INFO  2019-10-12 10:06:36,607 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2019-10-12 10:06:36,614 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2019-10-12 10:06:36,628 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.9209ms 200 application/javascript
+INFO  2019-10-12 10:06:36,632 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-10-12 10:06:36,648 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2019-10-12 10:06:36,658 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.2995ms 200 application/javascript
+INFO  2019-10-12 10:06:36,672 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+INFO  2019-10-12 10:06:36,701 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-10-12 10:06:36,719 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.305ms 200 application/javascript
+INFO  2019-10-12 10:06:36,738 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.4377ms 200 application/javascript
+INFO  2019-10-12 10:06:36,745 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2019-10-12 10:06:36,749 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2019-10-12 10:06:36,753 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2019-10-12 10:06:36,759 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2019-10-12 10:06:36,764 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+INFO  2019-10-12 10:06:36,768 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-10-12 10:06:36,772 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.6365ms 200 font/woff2
+INFO  2019-10-12 10:06:36,773 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2019-10-12 10:06:36,777 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2019-10-12 10:06:36,782 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.4832ms 200 application/javascript
+INFO  2019-10-12 10:06:36,796 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.6509ms 200 font/woff2
+INFO  2019-10-12 10:06:36,837 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.5956ms 200 font/woff2
+INFO  2019-10-12 10:06:36,852 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2019-10-12 10:06:36,856 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2019-10-12 10:06:36,859 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=ydCtEeux5UBtz2m1MKq2u_q_zMulPr8uRz3xZSOl3_U  
+INFO  2019-10-12 10:06:36,863 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=_sUixSUZcmP81slFpHh9ygZ5nNihdHlHLkpoSCncHCw  
+INFO  2019-10-12 10:06:36,876 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-10-12 10:06:36,884 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\js\main.js'
+INFO  2019-10-12 10:06:36,886 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\js\admin.js'
+INFO  2019-10-12 10:06:36,893 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-10-12 10:06:36,895 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 253.7848ms 200 application/javascript
+INFO  2019-10-12 10:06:36,901 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.3339ms 200 application/javascript
+INFO  2019-10-12 10:06:36,912 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.1597ms 200 application/javascript
+INFO  2019-10-12 10:06:36,917 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-10-12 10:06:36,955 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.245ms 200 application/javascript
+INFO  2019-10-12 10:06:36,968 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.3472ms 200 application/javascript
+INFO  2019-10-12 10:06:36,974 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-10-12 10:06:36,988 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2019-10-12 10:06:37,005 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:06:37,007 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 749.1767ms 200 application/javascript
+INFO  2019-10-12 10:06:37,013 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2019-10-12 10:06:37,014 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:06:37,019 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637064715957521629  
+INFO  2019-10-12 10:06:37,022 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.642ms 200 application/javascript
+INFO  2019-10-12 10:06:37,030 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js?v=43895rQGsnOPb7xfOFMbaJN_v2aOQrPBt_cVRxsPWxo  
+INFO  2019-10-12 10:06:37,033 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-12 10:06:37,039 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/src/localization/messages_zh_Hans.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\jquery-validation\src\localization\messages_zh_Hans.js'
+INFO  2019-10-12 10:06:37,042 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.3118ms 200 application/javascript
+INFO  2019-10-12 10:06:37,049 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.3114ms 200 application/javascript
+INFO  2019-10-12 10:06:37,051 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-10-12 10:06:37,075 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:06:37,078 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-10-12 10:06:37,089 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.6284ms 200 image/png
+INFO  2019-10-12 10:06:37,101 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:06:37,106 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:06:37,182 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:06:37,345 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 235.6925ms.
+INFO  2019-10-12 10:06:37,358 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:06:37,378 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 289.1873ms
+INFO  2019-10-12 10:06:37,388 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 370.6075ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:06:37,454 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 268.6606ms.
+INFO  2019-10-12 10:06:37,460 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:06:37,465 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 355.8896ms
+INFO  2019-10-12 10:06:37,475 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 491.2642ms 200 application/x-javascript
+INFO  2019-10-12 10:06:43,407 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 272
+INFO  2019-10-12 10:06:43,424 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:06:43,556 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (Jerry.BookStore.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2019-10-12 10:06:44,493 [11   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-10-12 10:06:44,504 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 944.9258ms.
+INFO  2019-10-12 10:06:44,530 [6    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-10-12 10:06:44,546 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 1119.8167ms
+INFO  2019-10-12 10:06:44,553 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1145.3065ms 200 application/json; charset=utf-8
+INFO  2019-10-12 10:06:44,570 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-12 10:06:44,644 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:06:44,693 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-10-12 10:06:44,701 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) - Validation state: Valid
+INFO  2019-10-12 10:06:44,704 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9141ms.
+INFO  2019-10-12 10:06:44,726 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-10-12 10:06:45,711 [16   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 987.1227ms.
+INFO  2019-10-12 10:06:45,748 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) in 1088.2189ms
+INFO  2019-10-12 10:06:45,781 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2019-10-12 10:06:45,799 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2019-10-12 10:06:45,803 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2019-10-12 10:06:45,826 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2019-10-12 10:06:45,844 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2019-10-12 10:06:45,848 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1184.4142ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:06:45,857 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+INFO  2019-10-12 10:06:45,863 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2019-10-12 10:06:45,864 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2019-10-12 10:06:45,868 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.2068ms 200 text/css
+INFO  2019-10-12 10:06:45,890 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+INFO  2019-10-12 10:06:45,898 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\images\user.png'
+INFO  2019-10-12 10:06:45,926 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 151.0556ms 200 text/css
+INFO  2019-10-12 10:06:45,934 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2019-10-12 10:06:45,944 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:06:45,990 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.2833ms 200 image/png
+INFO  2019-10-12 10:06:46,002 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:06:46,043 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2019-10-12 10:06:46,049 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:06:46,051 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 147.7586ms 200 application/javascript
+INFO  2019-10-12 10:06:46,055 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.2897ms.
+INFO  2019-10-12 10:06:46,059 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2019-10-12 10:06:46,062 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2019-10-12 10:06:46,072 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:06:46,092 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.6087ms 200 text/css
+INFO  2019-10-12 10:06:46,100 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 70.7428ms
+INFO  2019-10-12 10:06:46,119 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2019-10-12 10:06:46,128 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 186.6496ms 200 application/x-javascript
+INFO  2019-10-12 10:06:46,146 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\push.js\push.js'
+INFO  2019-10-12 10:06:46,168 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2019-10-12 10:06:46,174 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+INFO  2019-10-12 10:06:46,179 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.5418ms 200 application/javascript
+INFO  2019-10-12 10:06:46,191 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.6888ms 200 application/javascript
+INFO  2019-10-12 10:06:46,196 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2019-10-12 10:06:46,200 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2019-10-12 10:06:46,207 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2019-10-12 10:06:46,229 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+INFO  2019-10-12 10:06:46,234 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2019-10-12 10:06:46,247 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 467.6953ms 200 text/css
+INFO  2019-10-12 10:06:46,262 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2019-10-12 10:06:46,268 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 57.1994ms 200 application/javascript
+INFO  2019-10-12 10:06:46,272 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.7829ms 200 font/woff2
+INFO  2019-10-12 10:06:46,296 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2019-10-12 10:06:46,316 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2019-10-12 10:06:46,340 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:06:46,358 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+INFO  2019-10-12 10:06:46,380 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/signalr-client/signalr.min.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\signalr-client\signalr.min.js'
+INFO  2019-10-12 10:06:46,385 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 89.7143ms 200 application/javascript
+INFO  2019-10-12 10:06:46,394 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 330.4395ms 200 application/javascript
+INFO  2019-10-12 10:06:46,397 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2019-10-12 10:06:46,401 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2019-10-12 10:06:46,430 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:06:46,449 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 379.8072ms 200 application/javascript
+INFO  2019-10-12 10:06:46,473 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+INFO  2019-10-12 10:06:46,491 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:06:46,500 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.4765ms 200 application/javascript
+INFO  2019-10-12 10:06:46,523 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=8bQpuR0dFdbi0KIM9VVSonDAxoXNRsdDAvuSZSI8Oyw  
+INFO  2019-10-12 10:06:46,543 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2019-10-12 10:06:46,562 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\images\user-img-background.jpg'
+INFO  2019-10-12 10:06:46,577 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+INFO  2019-10-12 10:06:46,590 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.signalr-client.js'
+INFO  2019-10-12 10:06:46,594 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 305.8059ms 200 application/javascript
+INFO  2019-10-12 10:06:46,602 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.5513ms 200 application/javascript
+INFO  2019-10-12 10:06:46,615 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 83.6199ms.
+INFO  2019-10-12 10:06:46,621 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2019-10-12 10:06:46,644 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:06:46,667 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+INFO  2019-10-12 10:06:46,694 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2019-10-12 10:06:46,715 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 275.2538ms 200 application/javascript
+INFO  2019-10-12 10:06:46,741 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 215.8459ms
+INFO  2019-10-12 10:06:46,750 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2019-10-12 10:06:46,760 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 491.2855ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:06:46,764 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+INFO  2019-10-12 10:06:46,776 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-10-12 10:06:46,783 [18   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+INFO  2019-10-12 10:06:46,792 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.6672ms 200 application/javascript
+INFO  2019-10-12 10:06:46,798 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.4372ms 200 application/javascript
+INFO  2019-10-12 10:06:46,800 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+INFO  2019-10-12 10:06:46,806 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 431.7113ms 200 image/jpeg
+INFO  2019-10-12 10:06:46,810 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 299.6212ms 200 application/javascript
+INFO  2019-10-12 10:06:46,813 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2019-10-12 10:06:46,817 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2019-10-12 10:06:46,824 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+INFO  2019-10-12 10:06:46,831 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 222.3024ms 200 application/javascript
+INFO  2019-10-12 10:06:46,850 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+INFO  2019-10-12 10:06:46,864 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.8761ms 200 application/javascript
+INFO  2019-10-12 10:06:46,926 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2019-10-12 10:06:46,932 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.7302ms 200 application/javascript
+INFO  2019-10-12 10:06:46,961 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 189.1015ms 200 application/json
+INFO  2019-10-12 10:06:46,983 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=-Pl-xxUVRfENL8M4Sm2qlg  
+INFO  2019-10-12 10:06:47,497 [22   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-10-12 10:06:47,587 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"-Pl-xxUVRfENL8M4Sm2qlg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-12T10:06:47.5757045+08:00","Properties":{}}
+DEBUG 2019-10-12 10:06:47,698 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: -Pl-xxUVRfENL8M4Sm2qlg
+INFO  2019-10-12 10:06:51,411 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Logout  
+INFO  2019-10-12 10:06:51,433 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Logout", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Logout (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:06:51,442 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Logout (Jerry.BookStore.Web.Mvc) - Validation state: Valid
+INFO  2019-10-12 10:06:51,479 [22   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed out.
+INFO  2019-10-12 10:06:51,484 [22   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.External signed out.
+INFO  2019-10-12 10:06:51,496 [22   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.TwoFactorUserId signed out.
+INFO  2019-10-12 10:06:51,512 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Logout (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 66.3815ms.
+INFO  2019-10-12 10:06:51,528 [6    ] ft.AspNetCore.Mvc.RedirectToActionResult - Executing RedirectResult, redirecting to /Account/Login.
+INFO  2019-10-12 10:06:51,531 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Logout (Jerry.BookStore.Web.Mvc) in 95.7ms
+INFO  2019-10-12 10:06:51,536 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 123.9399ms 302 
+INFO  2019-10-12 10:06:51,545 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2019-10-12 10:06:51,552 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:06:51,565 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (, , ) - Validation state: Valid
+INFO  2019-10-12 10:06:51,569 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0954ms.
+INFO  2019-10-12 10:06:51,581 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-12 10:06:51,600 [23   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 17.556ms.
+INFO  2019-10-12 10:06:51,608 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 47.4867ms
+INFO  2019-10-12 10:06:51,614 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.0505ms 200 text/html; charset=utf-8
+DEBUG 2019-10-12 10:06:51,725 [22   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: -Pl-xxUVRfENL8M4Sm2qlg
+INFO  2019-10-12 10:06:51,733 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637064716115951752  
+INFO  2019-10-12 10:06:51,758 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:06:51,776 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:06:51,787 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:06:51,792 [22   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-12 10:06:51,798 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:06:51,810 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 118.8104ms 200 application/javascript
+INFO  2019-10-12 10:06:51,812 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:06:51,818 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4804.1744ms 101 
+INFO  2019-10-12 10:06:51,853 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:06:51,881 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0687ms.
+INFO  2019-10-12 10:06:51,889 [20   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:06:51,897 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 72.9998ms
+INFO  2019-10-12 10:06:51,915 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 212.4299ms 200 application/x-javascript
+INFO  2019-10-12 10:06:51,925 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 119.4492ms.
+INFO  2019-10-12 10:06:51,929 [18   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:06:51,943 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 141.7596ms
+INFO  2019-10-12 10:06:51,959 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 259.0535ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:06:56,373 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/TenantChangeModal application/html 0
+INFO  2019-10-12 10:06:56,385 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "TenantChangeModal", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:06:56,395 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc) - Validation state: Valid
+INFO  2019-10-12 10:06:56,400 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.5595ms.
+INFO  2019-10-12 10:06:56,417 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2019-10-12 10:06:56,491 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml executed in 71.6219ms.
+INFO  2019-10-12 10:06:56,494 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc) in 105.5191ms
+INFO  2019-10-12 10:06:56,501 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 125.0114ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:07:01,595 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2019-10-12 10:07:01,611 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:07:01,625 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (, , ) - Validation state: Valid
+INFO  2019-10-12 10:07:01,631 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3114ms.
+INFO  2019-10-12 10:07:01,651 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-12 10:07:01,676 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 20.5112ms.
+INFO  2019-10-12 10:07:01,682 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 65.8424ms
+INFO  2019-10-12 10:07:01,693 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 92.9823ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:07:01,719 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637064716216684196  
+INFO  2019-10-12 10:07:01,725 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:07:01,739 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:07:01,767 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:07:01,794 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-12 10:07:01,796 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:07:01,810 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.5635ms 200 application/javascript
+INFO  2019-10-12 10:07:01,814 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:07:01,826 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:07:01,829 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0744ms.
+INFO  2019-10-12 10:07:01,844 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:07:01,850 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 30.4043ms
+INFO  2019-10-12 10:07:01,908 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 135.2582ms 200 application/x-javascript
+INFO  2019-10-12 10:07:01,913 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 110.7155ms.
+INFO  2019-10-12 10:07:01,917 [22   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:07:01,923 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 150.4187ms
+INFO  2019-10-12 10:07:01,931 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 208.897ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:07:01,996 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-10-12 10:07:02,012 [23   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-10-12 10:07:02,017 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.3958ms 200 image/x-icon
+INFO  2019-10-12 10:08:40,910 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=%2FAccount%2FLogin  
+INFO  2019-10-12 10:08:40,926 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2019-10-12 10:08:40,931 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (en, /Account/Login) - Validation state: Valid
+INFO  2019-10-12 10:08:40,943 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 9.1067ms.
+INFO  2019-10-12 10:08:40,950 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /Account/Login.
+INFO  2019-10-12 10:08:40,952 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 23.0249ms
+INFO  2019-10-12 10:08:40,965 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.6217ms 302 
+INFO  2019-10-12 10:08:40,982 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2019-10-12 10:08:40,992 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:08:40,999 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (, , ) - Validation state: Valid
+INFO  2019-10-12 10:08:41,002 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3068ms.
+INFO  2019-10-12 10:08:41,024 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-12 10:08:41,063 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 19.9196ms.
+INFO  2019-10-12 10:08:41,077 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 71.4232ms
+INFO  2019-10-12 10:08:41,115 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.3116ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:08:41,218 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637064717210400094  
+INFO  2019-10-12 10:08:41,334 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:08:41,341 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:08:41,352 [27   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-12 10:08:41,375 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 223.4511ms 200 application/javascript
+INFO  2019-10-12 10:08:41,376 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:08:41,380 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:08:41,390 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:08:41,394 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:08:41,399 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.1266ms.
+INFO  2019-10-12 10:08:41,409 [29   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:08:41,421 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 31.4005ms
+INFO  2019-10-12 10:08:41,450 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 203.2411ms 200 application/x-javascript
+WARN  2019-10-12 10:08:41,451 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+INFO  2019-10-12 10:08:41,490 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 86.4913ms.
+INFO  2019-10-12 10:08:41,528 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:08:41,534 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 148.9694ms
+INFO  2019-10-12 10:08:41,542 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 289.9653ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:09:01,030 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css.map  
+INFO  2019-10-12 10:09:01,178 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css.map'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map'
+INFO  2019-10-12 10:09:01,188 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 159.051ms 200 text/plain
+INFO  2019-10-12 10:10:16,969 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/TenantChangeModal application/html 0
+INFO  2019-10-12 10:10:16,983 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "TenantChangeModal", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:10:17,000 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc) - Validation state: Valid
+INFO  2019-10-12 10:10:17,009 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6194ms.
+INFO  2019-10-12 10:10:17,029 [35   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml.
+INFO  2019-10-12 10:10:17,043 [35   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view /Views/Shared/Components/TenantChange/_ChangeModal.cshtml executed in 8.1857ms.
+INFO  2019-10-12 10:10:17,046 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.TenantChangeModal (Jerry.BookStore.Web.Mvc) in 60.5001ms
+INFO  2019-10-12 10:10:17,058 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.1112ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:10:43,615 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login  
+INFO  2019-10-12 10:10:43,630 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:10:43,640 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (, , ) - Validation state: Valid
+INFO  2019-10-12 10:10:43,643 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2835ms.
+INFO  2019-10-12 10:10:43,658 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-10-12 10:10:43,673 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 16.4372ms.
+INFO  2019-10-12 10:10:43,678 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 43.101ms
+INFO  2019-10-12 10:10:43,829 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.7715ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:10:43,970 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:10:44,068 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js?v=637064718436705838  
+INFO  2019-10-12 10:10:44,079 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:10:44,094 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:10:44,149 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+INFO  2019-10-12 10:10:44,210 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:10:44,246 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 257.9656ms 200 application/javascript
+INFO  2019-10-12 10:10:44,257 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:10:44,259 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:10:44,262 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0718ms.
+INFO  2019-10-12 10:10:44,277 [37   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+WARN  2019-10-12 10:10:44,284 [41   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+INFO  2019-10-12 10:10:44,329 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 62.6059ms
+INFO  2019-10-12 10:10:44,331 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 49.0216ms.
+INFO  2019-10-12 10:10:44,351 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 402.6571ms 200 application/x-javascript
+INFO  2019-10-12 10:10:44,360 [41   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:10:44,381 [41   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 264.2968ms
+INFO  2019-10-12 10:10:44,466 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 482.0372ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:10:44,513 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-10-12 10:10:44,571 [41   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\favicon.ico'
+INFO  2019-10-12 10:10:44,582 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 107.5618ms 200 image/x-icon
+INFO  2019-10-12 10:13:18,043 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 272
+INFO  2019-10-12 10:13:18,053 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:13:18,066 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) with arguments (Jerry.BookStore.Web.Models.Account.LoginViewModel, /, ) - Validation state: Valid
+INFO  2019-10-12 10:13:18,151 [33   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-10-12 10:13:18,155 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult in 86.2347ms.
+INFO  2019-10-12 10:13:18,166 [43   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-10-12 10:13:18,169 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.AccountController.Login (Jerry.BookStore.Web.Mvc) in 112.5802ms
+INFO  2019-10-12 10:13:18,178 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 130.107ms 200 application/json; charset=utf-8
+INFO  2019-10-12 10:13:18,210 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-12 10:13:18,219 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:13:18,227 [35   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-10-12 10:13:18,232 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) - Validation state: Valid
+INFO  2019-10-12 10:13:18,236 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0579ms.
+INFO  2019-10-12 10:13:18,254 [48   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-10-12 10:13:18,287 [47   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+INFO  2019-10-12 10:13:18,314 [47   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 54.1482ms.
+INFO  2019-10-12 10:13:18,319 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) in 95.1911ms
+INFO  2019-10-12 10:13:18,433 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 124.4413ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:13:18,563 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:13:18,614 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:13:18,653 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:13:18,666 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:13:18,667 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:13:18,679 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:13:18,687 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0669ms.
+WARN  2019-10-12 10:13:18,716 [43   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+INFO  2019-10-12 10:13:18,796 [47   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:13:18,811 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 72.6073ms.
+INFO  2019-10-12 10:13:18,866 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 138.7959ms
+INFO  2019-10-12 10:13:18,883 [43   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:13:18,905 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 324.2486ms 200 application/x-javascript
+INFO  2019-10-12 10:13:18,917 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 231.8791ms
+INFO  2019-10-12 10:13:18,927 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 370.1709ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:13:19,002 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css.map  
+INFO  2019-10-12 10:13:19,087 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-10-12 10:13:19,138 [48   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css.map'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css.map'
+INFO  2019-10-12 10:13:19,152 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.5043ms 200 application/json
+INFO  2019-10-12 10:13:19,164 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 148.0757ms 200 text/plain
+INFO  2019-10-12 10:13:19,169 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js.map  
+INFO  2019-10-12 10:13:19,265 [48   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.5967ms 404 
+INFO  2019-10-12 10:13:19,276 [49   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=rRijBNaJaR-qH3bum6Rlfw  
+INFO  2019-10-12 10:13:19,582 [48   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-10-12 10:13:19,583 [48   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"rRijBNaJaR-qH3bum6Rlfw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-12T10:13:19.583678+08:00","Properties":{}}
+DEBUG 2019-10-12 10:13:19,584 [48   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: rRijBNaJaR-qH3bum6Rlfw
+INFO  2019-10-12 10:13:23,658 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Task  
+INFO  2019-10-12 10:13:23,683 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Task", area = ""}. Executing action Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:13:24,382 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc) with arguments (Jerry.BookStore.Tasks.GetAllTaskInput) - Validation state: Valid
+INFO  2019-10-12 10:13:24,497 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 112.7747ms.
+INFO  2019-10-12 10:13:24,525 [35   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-10-12 10:13:24,536 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,543 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,547 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'AllTasks' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,556 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,558 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,621 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,622 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,624 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,625 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 10:13:24,644 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+INFO  2019-10-12 10:13:24,671 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 148.0924ms.
+INFO  2019-10-12 10:13:24,678 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc) in 988.0609ms
+DEBUG 2019-10-12 10:13:24,730 [35   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: rRijBNaJaR-qH3bum6Rlfw
+INFO  2019-10-12 10:13:24,754 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1027.2037ms 200 text/html; charset=utf-8
+INFO  2019-10-12 10:13:24,760 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:13:24,777 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/views/tasks/index.js  
+INFO  2019-10-12 10:13:24,780 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5502.3657ms 101 
+INFO  2019-10-12 10:13:24,782 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:13:24,798 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:13:24,832 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/views/tasks/index.js'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\js\views\tasks\index.js'
+INFO  2019-10-12 10:13:24,863 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:13:24,887 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.3393ms 200 application/javascript
+INFO  2019-10-12 10:13:24,911 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:13:24,918 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:13:24,922 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.1035ms.
+INFO  2019-10-12 10:13:24,933 [33   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:13:24,953 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 61.9399ms
+WARN  2019-10-12 10:13:24,959 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskList' in localization source 'BookStore'!
+INFO  2019-10-12 10:13:24,960 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 198.7833ms 200 application/x-javascript
+INFO  2019-10-12 10:13:24,980 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 56.6531ms.
+INFO  2019-10-12 10:13:24,983 [46   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:13:24,989 [46   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 185.4556ms
+INFO  2019-10-12 10:13:24,994 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 236.9486ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:13:25,017 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-10-12 10:13:25,031 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.9201ms 200 application/json
+INFO  2019-10-12 10:13:25,099 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=1JguelNr65du3_t_gntHpw  
+INFO  2019-10-12 10:13:25,118 [47   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-10-12 10:13:25,119 [47   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"1JguelNr65du3_t_gntHpw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-12T10:13:25.1191565+08:00","Properties":{}}
+DEBUG 2019-10-12 10:13:25,119 [47   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 1JguelNr65du3_t_gntHpw
+INFO  2019-10-12 10:15:20,658 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2  
+INFO  2019-10-12 10:15:20,670 [33   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'. Physical path: 'D:\RDCenter\Abp\BookStoreDemo\Jerry.BookStore\4.8.0\aspnet-core\src\Jerry.BookStore.Web.Mvc\wwwroot\fonts\roboto\mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2'
+INFO  2019-10-12 10:15:20,674 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.4139ms 200 font/woff2
+INFO  2019-10-12 10:15:22,260 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=zh-Hans&returnUrl=/Task  
+INFO  2019-10-12 10:15:22,273 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2019-10-12 10:15:22,278 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (zh-Hans, /Task) - Validation state: Valid
+INFO  2019-10-12 10:15:22,354 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 71.9937ms.
+INFO  2019-10-12 10:15:22,357 [35   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /Task.
+INFO  2019-10-12 10:15:22,359 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 83.8598ms
+INFO  2019-10-12 10:15:22,370 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117.3365ms 302 
+INFO  2019-10-12 10:15:22,386 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Task  
+INFO  2019-10-12 10:15:22,402 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Task", area = ""}. Executing action Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 10:15:22,410 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc) with arguments (Jerry.BookStore.Tasks.GetAllTaskInput) - Validation state: Valid
+INFO  2019-10-12 10:15:22,438 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 25.0122ms.
+INFO  2019-10-12 10:15:22,459 [33   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-10-12 10:15:22,466 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'AllTasks' in localization source 'BookStore'!
+WARN  2019-10-12 10:15:22,468 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 10:15:22,469 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 10:15:22,474 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 10:15:22,475 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 10:15:22,476 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 10:15:22,482 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+INFO  2019-10-12 10:15:22,550 [43   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 87.4666ms.
+INFO  2019-10-12 10:15:22,557 [43   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc) in 148.1837ms
+INFO  2019-10-12 10:15:22,572 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 176.4687ms 200 text/html; charset=utf-8
+DEBUG 2019-10-12 10:15:22,622 [56   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 1JguelNr65du3_t_gntHpw
+INFO  2019-10-12 10:15:22,643 [56   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 117533.4709ms 101 
+INFO  2019-10-12 10:15:22,657 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064715737965502  
+INFO  2019-10-12 10:15:22,663 [55   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064715737965502  
+INFO  2019-10-12 10:15:22,712 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 10:15:22,734 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 10:15:22,737 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 10:15:22,741 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.0941ms.
+INFO  2019-10-12 10:15:22,747 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 10:15:22,749 [54   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 10:15:22,764 [54   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 30.8602ms
+INFO  2019-10-12 10:15:22,773 [54   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 121.8783ms 200 application/x-javascript
+INFO  2019-10-12 10:15:22,816 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 65.0367ms.
+INFO  2019-10-12 10:15:22,819 [55   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:15:22,825 [55   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 83.9904ms
+INFO  2019-10-12 10:15:22,835 [55   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 171.4021ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 10:15:22,857 [55   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-10-12 10:15:22,887 [55   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.4807ms 200 application/json
+INFO  2019-10-12 10:15:22,974 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=x56oEoI8g1zcNzufMlvTzA  
+INFO  2019-10-12 10:15:23,007 [55   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-10-12 10:15:23,008 [55   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"x56oEoI8g1zcNzufMlvTzA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-12T10:15:23.008147+08:00","Properties":{}}
+DEBUG 2019-10-12 10:15:23,008 [55   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: x56oEoI8g1zcNzufMlvTzA
+DEBUG 2019-10-12 11:59:21,895 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-10-12 11:59:22,434 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-10-12 11:59:22,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.Web.Startup.BookStoreWebMvcModule, Jerry.BookStore.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.BookStoreWebCoreModule, Jerry.BookStore.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.BookStoreApplicationModule, Jerry.BookStore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,485 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.BookStoreCoreModule, Jerry.BookStore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,485 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Jerry.BookStore.EntityFrameworkCore.BookStoreEntityFrameworkModule, Jerry.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,493 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:22,500 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-10-12 11:59:22,712 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 11:59:22,712 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 11:59:22,712 [1    ] o.Configuration.LanguageManagementConfig - Converted BookStore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 11:59:22,712 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-10-12 11:59:23,611 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Jerry.BookStore.EntityFrameworkCore.BookStoreDbContext, Jerry.BookStore.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-10-12 11:59:27,004 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-10-12 11:59:27,211 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-10-12 11:59:27,322 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-10-12 11:59:27,389 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BookStore
+DEBUG 2019-10-12 11:59:27,475 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-10-12 11:59:27,874 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-10-12 11:59:28,127 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-10-12 11:59:28,195 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2019-10-12 11:59:28,195 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-10-12 11:59:28,207 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Users.Dto.CreateUserDto
+DEBUG 2019-10-12 11:59:28,208 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Users.Dto.UserDto
+DEBUG 2019-10-12 11:59:28,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Tasks.Dto.TaskListDto
+DEBUG 2019-10-12 11:59:28,209 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-10-12 11:59:28,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-10-12 11:59:28,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Roles.Dto.PermissionDto
+DEBUG 2019-10-12 11:59:28,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-10-12 11:59:28,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.MultiTenancy.Dto.TenantDto
+DEBUG 2019-10-12 11:59:28,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-10-12 11:59:28,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Jerry.BookStore.Web.Models.Roles.EditRoleModalViewModel
+INFO  2019-10-12 11:59:36,552 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-10-12 11:59:36,552 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2019-10-12 11:59:36,794 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 255.432ms 200 
+INFO  2019-10-12 11:59:48,083 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 11:59:48,215 [7    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-10-12 11:59:48,313 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) - Validation state: Valid
+INFO  2019-10-12 11:59:48,329 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 8.1329ms.
+INFO  2019-10-12 11:59:48,882 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-10-12 11:59:52,384 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 3533.6739ms.
+INFO  2019-10-12 11:59:52,423 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Controllers.HomeController.Index (Jerry.BookStore.Web.Mvc) in 4328.7941ms
+INFO  2019-10-12 11:59:52,482 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15956.8638ms 200 text/html; charset=utf-8
+INFO  2019-10-12 11:59:52,663 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064783681294492  
+INFO  2019-10-12 11:59:52,687 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064783681294492  
+INFO  2019-10-12 11:59:52,758 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 11:59:52,768 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 11:59:52,915 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 11:59:53,039 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 11:59:53,457 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 479.203ms.
+INFO  2019-10-12 11:59:53,472 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 426.1914ms.
+INFO  2019-10-12 11:59:53,481 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 11:59:53,484 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 11:59:53,499 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 729.1835ms
+INFO  2019-10-12 11:59:53,515 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 720.0378ms
+INFO  2019-10-12 11:59:53,522 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 876.5552ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 11:59:53,525 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 878.2372ms 200 application/x-javascript
+INFO  2019-10-12 11:59:53,529 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-10-12 11:59:53,629 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.3151ms 200 application/json
+INFO  2019-10-12 11:59:53,998 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=vLuOCPXcUVW82LVbsfTazg  
+INFO  2019-10-12 11:59:54,574 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-10-12 11:59:54,645 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"vLuOCPXcUVW82LVbsfTazg","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-12T11:59:54.6304418+08:00","Properties":{}}
+DEBUG 2019-10-12 11:59:54,748 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: vLuOCPXcUVW82LVbsfTazg
+INFO  2019-10-12 11:59:59,503 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Task  
+INFO  2019-10-12 11:59:59,533 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Task", area = ""}. Executing action Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc)
+INFO  2019-10-12 12:00:00,524 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc) with arguments (Jerry.BookStore.Tasks.GetAllTaskInput) - Validation state: Valid
+INFO  2019-10-12 12:00:00,914 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 384.8845ms.
+INFO  2019-10-12 12:00:01,058 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-10-12 12:00:01,087 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'AllTasks' in localization source 'BookStore'!
+WARN  2019-10-12 12:00:01,098 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 12:00:01,099 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 12:00:01,174 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 12:00:01,176 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+WARN  2019-10-12 12:00:01,177 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Open' in localization source 'BookStore'!
+WARN  2019-10-12 12:00:01,178 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'TaskState_Completed' in localization source 'BookStore'!
+INFO  2019-10-12 12:00:01,279 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 243.4172ms.
+INFO  2019-10-12 12:00:01,362 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Jerry.BookStore.Web.Mvc.Controllers.TaskController.Index (Jerry.BookStore.Web.Mvc) in 1746.591ms
+INFO  2019-10-12 12:00:01,395 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637064783681294492  
+INFO  2019-10-12 12:00:01,504 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1863.9173ms 200 text/html; charset=utf-8
+DEBUG 2019-10-12 12:00:01,571 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: vLuOCPXcUVW82LVbsfTazg
+INFO  2019-10-12 12:00:01,620 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637064783681294492  
+INFO  2019-10-12 12:00:01,766 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-10-12 12:00:01,820 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7628.0114ms 101 
+INFO  2019-10-12 12:00:01,840 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-10-12 12:00:01,845 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-10-12 12:00:01,852 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-10-12 12:00:01,876 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 0.2599ms.
+INFO  2019-10-12 12:00:01,880 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-10-12 12:00:01,888 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 114.923ms
+INFO  2019-10-12 12:00:01,901 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 538.0652ms 200 application/x-javascript
+INFO  2019-10-12 12:00:01,948 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 86.8216ms.
+INFO  2019-10-12 12:00:01,959 [5    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-10-12 12:00:01,997 [5    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 117.85ms
+INFO  2019-10-12 12:00:02,028 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 646.9784ms 200 application/x-javascript; charset=utf-8
+INFO  2019-10-12 12:00:02,033 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-10-12 12:00:02,068 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.771ms 200 application/json
+INFO  2019-10-12 12:00:02,088 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Hh3aS3Q5uaUUqwwuYbwsCA  
+INFO  2019-10-12 12:00:02,130 [7    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2019-10-12 12:00:02,131 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Hh3aS3Q5uaUUqwwuYbwsCA","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2019-10-12T12:00:02.130748+08:00","Properties":{}}
+DEBUG 2019-10-12 12:00:02,131 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: Hh3aS3Q5uaUUqwwuYbwsCA

@@ -4,6 +4,7 @@ using Jerry.BookStore.Authorization.Roles;
 using Jerry.BookStore.Authorization.Users;
 using Jerry.BookStore.MultiTenancy;
 using Jerry.BookStore.Tasks;
+using Jerry.BookStore.Persons;
 
 namespace Jerry.BookStore.EntityFrameworkCore
 {
@@ -18,5 +19,9 @@ namespace Jerry.BookStore.EntityFrameworkCore
 
 
         public DbSet<Task> Tasks { get; set; }
+
+        public DbSet<Person> People { get; set; }
+
+
     }
 }

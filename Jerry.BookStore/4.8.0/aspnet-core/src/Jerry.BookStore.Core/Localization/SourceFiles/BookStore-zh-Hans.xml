@@ -97,6 +97,7 @@
     <text name="DeleteTenantConfirm">确认删除该租户？</text>
     <text name="EditTenant">编辑租户</text>
     <text name="TaskList" value="任务列表" />
+    <text name="Unassigned" value="未分配"/>
     
   </texts>
 </localizationDictionary>

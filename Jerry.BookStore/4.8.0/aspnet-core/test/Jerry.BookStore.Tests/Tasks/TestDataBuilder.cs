@@ -15,10 +15,20 @@ namespace Jerry.BookStore.Tests.Tasks
             _context = context;
         }
 
+        public void Create()
+        {
+            Build();
+        }
+
         public void Build()
         {
+            var jerry = new Persons.Person("Jerry");
+            _context.People.Add(jerry);
+            _context.SaveChanges();
+
+
             _context.Tasks.AddRange(
-                new Task("Flow the white rabbit", "Follow the white rabbit in order to know the reality."),
+                new Task("Flow the white rabbit", "Follow the white rabbit in order to know the reality.",jerry.Id),
                 new Task("Clean your room") { State = Task.TaskState.Completed }
                 );
         }
